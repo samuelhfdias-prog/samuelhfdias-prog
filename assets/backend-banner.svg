@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Henrique Farias Dias - Backend Developer</title>
+  <desc id="desc">Animated backend development banner highlighting APIs, security, data, tests and delivery.</desc>
+  <style>
+    .bg { fill: #0d1117; }
+    .grid { stroke: #21262d; stroke-width: 1; opacity: .7; }
+    .name { fill: #f0f6fc; font: 700 38px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .role { fill: #8b949e; font: 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .label { fill: #c9d1d9; font: 700 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .terminal { fill: #2dd4bf; font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .line { fill: none; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 12 10; animation: flow 5s linear infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+    .blink { animation: blink 1s steps(2, start) infinite; }
+    .t1 { animation: reveal 6s ease-in-out infinite; }
+    .t2 { animation: reveal 6s 2s ease-in-out infinite; opacity: 0; }
+    .t3 { animation: reveal 6s 4s ease-in-out infinite; opacity: 0; }
+    @keyframes flow { to { stroke-dashoffset: -44; } }
+    @keyframes pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes reveal { 0%, 18% { opacity: 0; transform: translateY(5px); } 25%, 58% { opacity: 1; transform: translateY(0); } 70%, 100% { opacity: 0; } }
+  </style>
+
+  <rect class="bg" width="1200" height="300" rx="8"/>
+  <g class="grid">
+    <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200"/>
+    <path d="M50 0V300M100 0V300M150 0V300M200 0V300M250 0V300M300 0V300M350 0V300M400 0V300M450 0V300M500 0V300M550 0V300M600 0V300M650 0V300M700 0V300M750 0V300M800 0V300M850 0V300M900 0V300M950 0V300M1000 0V300M1050 0V300M1100 0V300M1150 0V300"/>
+  </g>
+
+  <text class="name" x="58" y="72">SAMUEL HENRIQUE FARIAS DIAS</text>
+  <text class="role" x="60" y="106">BACKEND DEVELOPMENT | SECURE APIs | BUSINESS RULES</text>
+
+  <g transform="translate(60 145)">
+    <rect width="520" height="112" rx="6" fill="#161b22" stroke="#30363d"/>
+    <circle cx="22" cy="20" r="5" fill="#f85149"/>
+    <circle cx="40" cy="20" r="5" fill="#d29922"/>
+    <circle cx="58" cy="20" r="5" fill="#3fb950"/>
+    <text class="terminal t1" x="22" y="56">&gt; Node.js + TypeScript + NestJS</text>
+    <text class="terminal t2" x="22" y="80">&gt; Kotlin + Spring Boot + SQL</text>
+    <text class="terminal t3" x="22" y="104">&gt; Security + Tests + CI/CD</text>
+    <rect class="blink" x="490" y="91" width="9" height="16" fill="#2dd4bf"/>
+  </g>
+
+  <g transform="translate(665 150)">
+    <path class="line" stroke="#60a5fa" d="M82 45H205"/>
+    <path class="line" stroke="#22c55e" d="M285 45H408"/>
+    <circle class="pulse" cx="60" cy="45" r="37" fill="#172554" stroke="#60a5fa" stroke-width="2"/>
+    <circle class="pulse" cx="245" cy="45" r="42" fill="#042f2e" stroke="#2dd4bf" stroke-width="2" style="animation-delay:.5s"/>
+    <circle class="pulse" cx="430" cy="45" r="37" fill="#052e16" stroke="#22c55e" stroke-width="2" style="animation-delay:1s"/>
+    <text class="label" x="32" y="51">CLIENT</text>
+    <text class="label" x="230" y="51">API</text>
+    <text class="label" x="410" y="51">DATA</text>
+    <text class="role" x="96" y="105">VALIDATE  |  AUTHORIZE  |  TEST  |  DELIVER</text>
+  </g>
+</svg>
