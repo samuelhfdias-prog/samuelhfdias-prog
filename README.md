@@ -41,8 +41,8 @@ flowchart LR
 
 | Project | Technical highlights |
 | --- | --- |
-| [RodoJacto Management Platform](https://github.com/samuelhfdias-prog/Teste-Rodojacto) | Kotlin, Spring Boot, Spring Security, JWT, Flyway, MySQL, Docker, OpenAPI and automated tests |
-| [Momesso Fleet Control](https://github.com/samuelhfdias-prog/Teste-momesso) | NestJS, Angular, multitenancy, RBAC, TypeORM, SQLite, rate limiting, tests and CI |
+| [OpsGuard Platform](https://github.com/samuelhfdias-prog/OpsGuard-Platform) | Kotlin, Spring Boot, Spring Security, JWT, Flyway, MySQL, Docker, OpenAPI and automated tests |
+| [FleetPulse](https://github.com/samuelhfdias-prog/FleetPulse) | NestJS, Angular, multitenancy, RBAC, TypeORM, SQLite, rate limiting, tests and CI |
 | [RAG Demo with Claude](https://github.com/samuelhfdias-prog/rag-demo-claude) | TypeScript, Express, SQLite, RAG, local embeddings, API-key authentication and Claude integration |
 | [Projeto Saber Cuidar](https://github.com/samuelhfdias-prog/Projeto_saber_cuidar) | Node.js, TypeScript, Prisma, authentication and REST APIs documented with Swagger/OpenAPI |
 
